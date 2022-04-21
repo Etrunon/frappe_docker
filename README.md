@@ -9,7 +9,7 @@ To get started, you need Docker, docker-compose and git setup on your machine. F
 After that, clone this repo:
 
 ```sh
-git clone https://github.com/frappe/frappe_docker
+git clone https://github.com/Etrunon/frappe_docker
 cd frappe_docker
 ```
 
