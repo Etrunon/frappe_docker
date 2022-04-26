@@ -22,7 +22,7 @@ variable "ERPNEXT_REPO" {
 }
 
 variable "BENCH_REPO" {
-    default = "https://github.com/frappe/bench"
+    default = "https://github.com/Etrunon/bench"
 }
 
 # Bench image

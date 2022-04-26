@@ -41,7 +41,7 @@ RUN git clone --depth 1 -b ${ERPNEXT_VERSION} ${ERPNEXT_REPO} apps/erpnext \
 FROM alpine/git as bench
 
 # Error pages
-ARG BENCH_REPO=https://github.com/frappe/bench
+ARG BENCH_REPO=https://github.com/Etrunon/bench
 RUN git clone --depth 1 ${BENCH_REPO} /tmp/bench \
     && mkdir /out \
     && mv /tmp/bench/bench/config/templates/502.html /out/
